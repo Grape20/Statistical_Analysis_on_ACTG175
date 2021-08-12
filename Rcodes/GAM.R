@@ -18,6 +18,7 @@ actg$treat=as.factor(actg$treat)
 train=sample(1:nrow(actg),nrow(actg)/10*9)
 
 # GAM
+set.seed(1)
 gam.m1=gam(cd496~s(wtkg,2.45)+s(Ratio48,3.84)+karnof+strat+treat,
            data = actg, subset = train)
 par(mfrow=c(1,5))
