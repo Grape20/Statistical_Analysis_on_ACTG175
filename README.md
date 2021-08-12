@@ -1,5 +1,2 @@
-# Statistical_Analysis_on_ACTG175
-
-This project analyzes data set named ACTG175, which is about effect of different therapies on AIDS, using statistical learning tools. 
-
-使用了许多统计学习方法分析数据集ACTG175————一个关于对艾滋病的不同疗法疗效的数据集。
+# Analysis on Data Set ACTG175
+这个project是非参数统计课程的期末作业，主要用各种统计学习的方法分析生物统计数据ACTG175(艾滋病相关)，其中包括光滑样条、分类变量回归、General Additive Model、回归树、随机森林等方法。项目全部用R实现。
